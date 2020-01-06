@@ -1,0 +1,58 @@
+#logo{
+    width: 95%;
+}
+
+.navbar-nav{
+    font-size: 25px;
+}
+
+.navbar-collapse{
+    margin-left: 40%;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+h4{
+    font-size:3rem;
+    text-shadow: 3px 3px 3px black;
+}
+
+.carousel{
+    margin-bottom:30px;
+}
+
+.card{
+    margin-bottom:20px;
+}
+
+.fa-facebook{
+    color: black;
+    font-size: 2em;
+    margin-top:40px;
+    margin-bottom: 40px;
+
+}
+
+
+
+
+.footer{
+    background-color: lightgrey;
+    margin-top: 70px;
+}
+
+h6{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.selection{
+    margin-bottom: 20px;
+}

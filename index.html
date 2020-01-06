@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blue Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href='src/css/accueil.css' media='screen' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!--header-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="src/img/nom.png" alt="logo" id="logo"></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Acheter <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Louer</a>
+        <a class="nav-item nav-link" href="#">Contact</a>
+        <a class="nav-item nav-link" href="#">Connexion</a>
+     </div>
+  </div>
+</nav>
+
+<!--slider-->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="src/img/maisonSlider.jpg" class="d-block w-100" alt="maison">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>Maison de charme</h4>
+
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="src/img/appartSlider.jpg" class="d-block w-100" alt="appartement">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>Appartement atypique</h4>
+
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="src/img/handSlider.jpg" class="d-block w-100" alt="mains">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>Blue Home vous trouve le bien de vos rêves!</h4>
+
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!--selection-->
+<div class="container selection">
+<div class="row justify-content: center">
+<div class="col-2">
+<label for="inputGroupSelect01">
+    <select class="custom-select" id="inputGroupSelect01">
+        <option selected>Achat</option>
+        <option value="1">Achat</option>
+        <option value="2">Location</option>
+    </select>
+</label>
+</div>
+
+<div class="col-2">
+<label for="inputGroupSelect02">
+    <select class="custom-select" id="inputGroupSelect02">
+        <option selected>Ville</option>
+        <option value="1">Lille</option>
+        <option value="2">La Madeleine</option>
+        <option value="3">Marcq-en-Baroeul</option>
+    </select>
+</label>
+</div>
+
+<div class="col-2">
+<label for="inputGroupSelect03">
+    <select class="custom-select" id="inputGroupSelect03">
+        <option selected>Appartement</option>
+        <option value="1">Maison</option>
+    </select>
+</label>
+</div>
+
+
+    <div class="col-3">
+<label for="inputGroupSelect04">
+    <select class="custom-select" id="inputGroupSelect04">
+        <option selected>Entre 0 et 100 000€</option>
+        <option value="1">Entre 0 et 100 000€</option>
+        <option value="2">Entre 100 000€ et 150 000€</option>
+        <option value="3">Entre 150 000 et 250 000€</option>
+    </select>
+</label>
+    </div>
+
+    <div class="col-2">
+<input class="btn btn-info" type="submit" value="Rechercher">
+    </div>
+
+</div>
+</div>
+
+
+<!--presentation de biens-->
+
+<div class="container-fluid">
+    <div class="row">
+<div class="card text-center mx-auto" style="width: 18rem;">
+    <img src="src/img/appart1.jpg" class="card-img-top" alt="appartement1">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#">En savoir plus</a>
+    </div>
+</div>
+<div class="card text-center mx-auto" style="width: 18rem;">
+    <img src="src/img/appart2.jpg" class="card-img-top" alt="appartement2">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#">En savoir plus</a>
+    </div>
+</div>
+<div class="card text-center mx-auto" style="width: 18rem;">
+    <img src="src/img/maison1.jpg" class="card-img-top" alt="maison1">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#">En savoir plus</a>
+    </div>
+</div>
+<div class="card text-center mx-auto" style="width: 18rem;">
+    <img src="src/img/maison2.jpg" class="card-img-top" alt="maison2">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#">En savoir plus</a>
+    </div>
+</div>
+</div>
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="row justify-content-center">
+        <h6 class="col-12 col-sm-3">Notre agence</h6>
+        <h6 class="col-12 col-sm-3">Mentions légales</h6>
+        <h6 class="col-12 col-sm-3">Contact</h6>
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook col-12 col-sm-3 "></i></a>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
