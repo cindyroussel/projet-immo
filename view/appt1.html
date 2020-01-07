@@ -7,43 +7,75 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href='../src/css/accueil.css' media='screen' rel='stylesheet' type='text/css'>
     <link href='../src/css/appt1.css' media='screen' rel='stylesheet' type='text/css'>
+    <link href="../src/css/map.css" rel="stylesheet">
 </head>
-<body>
-<!--header-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="../src/img/nom.png" alt="logo" id="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Acheter <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Louer</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
-            <a class="nav-item nav-link" href="#">Connexion</a>
+
+
+    <!--header-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="../src/img/nom.png" alt="logo" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Acheter <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Louer</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link" href="#">Connexion</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--description-->
+    <div class="container-fluid">
+        <div class= "row justify-content-center text-center" >
+            <div class="col-12 col-sm-7">
+                <img src="../src/img/appart1.jpg" id="big" alt="appartement">
+
+                <ul class="nav ">
+                    <li class="nav-item">
+                        <img class="small" src="../src/img/cuisine.jpg" alt="cuisine">
+                    </li>
+                    <li class="nav-item">
+                        <img class="small" src="../src/img/sdb.jpg" alt="salle de bain">
+                    </li>
+                    <li class="nav-item">
+                        <img class="small" src="../src/img/chambre1.jpg" alt="chambre 1">
+                    </li>
+                    <li class="nav-item">
+                        <img class="small" src="../src/img/chambre2.jpg" alt="chambre 2">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-5">
+                <div id="maps">
+
+                </div>
+            </div>
+
         </div>
     </div>
-</nav>
-
-<!--description-->
-<div class="">
-    <div class="big-img">
-        <img src="../src/img/appart1.jpg" id="big">
-    </div>
-    <div class="row">
-
-            <img class="small" src="../src/img/cuisine.jpg">
 
 
-            <img class="small" src="../src/img/sdb.jpg">
 
 
-            <img class="small" src="../src/img/chambre1.jpg">
 
 
-            <img class="small" src="../src/img/chambre2.jpg">
 
-    </div>
-</div>
-</body>
+
+
+
+
+
+
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-Q8-xZAvhbFCoWYWh0gv02z36JFqDCVg&callback=initMap">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../src/js/map.js"></script>
+    </body>
 </html>

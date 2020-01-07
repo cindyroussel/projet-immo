@@ -59,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578317081307</updated>
       <workItem from="1578317082966" duration="7177000" />
-      <workItem from="1578384407323" duration="6087000" />
+      <workItem from="1578384407323" duration="17157000" />
     </task>
     <servers />
   </component>
@@ -67,6 +67,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" width="816" height="732" key="#Intentions" timestamp="1578398752880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="732" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1578398752880" />
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1578387124198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

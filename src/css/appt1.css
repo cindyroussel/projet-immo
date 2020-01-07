@@ -1,5 +1,9 @@
+.navbar{
+    margin-bottom: 50px;
+}
+
 #big{
-    width: 32%;
+    width: 75%;
 }
 
 .small{
@@ -7,5 +11,10 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 150px;
+    width: 192px;
 }
+
+ul{
+    margin-top: 15px;
+    justify-content: center;
+
