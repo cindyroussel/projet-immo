@@ -1,7 +1,11 @@
-.rounded{
-    width:15%;
+#big{
+    width: 32%;
 }
 
-.li{
-    width:20%!important;
+.small{
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
 }
