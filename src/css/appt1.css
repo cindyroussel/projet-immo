@@ -22,15 +22,17 @@ ul {
 }
 
 h2{
-    margin-bottom: 35px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 p{
     margin-right: 50px;
     margin-left: 50px;
+    font-size: 20px;
 }
 
-font-size{
-    font-size: 20px;
+
+h5{
+    margin-left: 50px;
 }

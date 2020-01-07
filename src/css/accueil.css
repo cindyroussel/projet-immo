@@ -59,8 +59,13 @@ h6{
     margin-top:40px;
     margin-bottom: 40px;
     font-size: 32px;
+
 }
 
 .selection{
     margin-bottom: 20px;
+}
+
+a{
+    color: black;
 }
