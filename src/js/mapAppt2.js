@@ -26,12 +26,15 @@ function initMap(listener) {
 
     let marker = new google.maps.Marker({
         position: lille,
-        map: map
+        map: map,
+        icon:"../src/img/home.png"
     });
 
     let marker1 = new google.maps.Marker({
         position: appt2,
-        map: map
+        map: map,
+        icon:"../src/img/maison.png"
+    
     });
 
 
@@ -47,6 +50,8 @@ function initMap(listener) {
         content: content2,
         position: appt2
     });
+
+    
 
 
 
