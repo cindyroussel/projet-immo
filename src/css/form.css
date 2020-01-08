@@ -16,5 +16,8 @@ h1{
     margin-top: 15px;
 }
 
-
-
+.form_error {
+    display: inline-block;
+    color: #FF4F4F;
+    padding: 10px;
+}

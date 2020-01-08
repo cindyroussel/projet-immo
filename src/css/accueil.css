@@ -73,3 +73,7 @@ a{
 .horaire{
     font-size:20px;
 }
+
+.modal-content{
+    width: 130%!important;
+}
