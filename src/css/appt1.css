@@ -37,7 +37,7 @@ h5{
     margin-left: 50px;
 }
 
-img
+img.small
 {
     cursor: zoom-in;
 }
@@ -76,7 +76,6 @@ img
     bottom: 0;
     left: 0;
     right: 0;
-    max-height: 95%;
-    max-width: 95%;
+    width:50%;
     cursor: zoom-out;
 }

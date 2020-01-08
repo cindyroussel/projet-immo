@@ -34,6 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetLocationVelo/location-de-velo/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
@@ -60,7 +61,8 @@
       <updated>1578317081307</updated>
       <workItem from="1578317082966" duration="7177000" />
       <workItem from="1578384407323" duration="23439000" />
-      <workItem from="1578467358569" duration="8639000" />
+      <workItem from="1578467358569" duration="9446000" />
+      <workItem from="1578477104737" duration="3439000" />
     </task>
     <servers />
   </component>
@@ -72,9 +74,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="816" height="732" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1578398752880" />
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1578387124198">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578477115631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578387124198" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578477115631" />
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1578478303733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578478303733" />
   </component>
 </project>
