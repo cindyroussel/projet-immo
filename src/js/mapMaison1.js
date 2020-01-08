@@ -75,7 +75,7 @@ function initMap(listener) {
     directionsService.route(request,function(response,status){
         if (status== google.maps.DirectionsStatus.OK){
             directionsDisplay.setDirections(response);
-            directionsDisplay.setOptions({'supressMarkers':true});
+            directionsDisplay.setOptions({'suppressMarkers':true});
         }
     });
 

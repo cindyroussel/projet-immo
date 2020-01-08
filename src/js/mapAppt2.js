@@ -68,14 +68,14 @@ function initMap(listener) {
     let request ={
         origin: lille,
         destination : appt2,
-        travelMode: google.maps.DirectionsTravelMode.WALKING,
+        travelMode: google.maps.DirectionsTravelMode.DRIVING,
         unitSystem: google.maps.DirectionsUnitSystem.METRIC
     };
 
     directionsService.route(request,function(response,status){
-        if (status== google.maps.DirectionsStatus.OK){
+        if (status== google.maps.DirectionsStatus.OK){           
             directionsDisplay.setDirections(response);
-            directionsDisplay.setOptions({'supressMarkers':true});
+            directionsDisplay.setOptions({'suppressMarkers':true});
         }
     });
 
