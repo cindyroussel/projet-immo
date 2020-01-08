@@ -5,13 +5,13 @@ function initMap(listener) {
         lng: 3.065166
     };
 
-    let appt1 ={
-        lat : 50.627959,
-        lng : 3.059784
+    let maison2 ={
+        lat : 50.670706,
+        lng : 3.099170
     };
 
-    let content = '<p><img src="../src/img/nom.png" alt="logo" id="logo1" </p> <p> 20 Rue de la Clef</p><p>59800 Lille</p>';
-    let content1 = "<h5>Réf. 123 Appt1</h5> <p>10 rue des Pyramides</p><p>59800 Lille</p>";
+    let content = '<p><img src="../src/img/nom.png" alt="logo" id="logo1" </p> <p> 20 Rue de la Clef</p><p>59700 Marcq-en-Baroeul</p>';
+    let content4 = "<h5>Réf. 147 Maison 2</h5> <p>54 avenue du Maréchal Foch</p><p>59800 Lille</p>";
 
     let affichePlace = document.querySelector("#maps");
 
@@ -30,7 +30,7 @@ function initMap(listener) {
     });
 
     let marker1 = new google.maps.Marker({
-        position: appt1,
+        position: maison2,
         map: map
     });
 
@@ -44,8 +44,8 @@ function initMap(listener) {
 
     let infos2 = new google.maps.InfoWindow({
 
-        content: content1,
-        position: appt1
+        content: content4,
+        position: maison2
     });
 
 
@@ -64,20 +64,20 @@ function initMap(listener) {
     //itineraire
 
     let directionsService = new google.maps.DirectionsService();
-      let directionsDisplay = new google.maps.DirectionsRenderer({'map':map});
-      let request ={
-          origin: lille,
-          destination : appt1,
-          travelMode: google.maps.DirectionsTravelMode.WALKING,
-          unitSystem: google.maps.DirectionsUnitSystem.METRIC
-      };
+    let directionsDisplay = new google.maps.DirectionsRenderer({'map':map});
+    let request ={
+        origin: lille,
+        destination : maison2,
+        travelMode: google.maps.DirectionsTravelMode.WALKING,
+        unitSystem: google.maps.DirectionsUnitSystem.METRIC
+    };
 
-     directionsService.route(request,function(response,status){
-         if (status== google.maps.DirectionsStatus.OK){
-             directionsDisplay.setDirections(response);
-             directionsDisplay.setOptions({'supressMarkers':true});
-         }
-     });
+    directionsService.route(request,function(response,status){
+        if (status== google.maps.DirectionsStatus.OK){
+            directionsDisplay.setDirections(response);
+            directionsDisplay.setOptions({'supressMarkers':true});
+        }
+    });
 
 
 

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Maison1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href='../src/css/accueil.css' media='screen' rel='stylesheet' type='text/css'>
+    <link href='../src/css/appt1.css' media='screen' rel='stylesheet' type='text/css'>
+    <link href="../src/css/map.css" rel="stylesheet">
+</head>
+<body style="overflow-x: hidden;">
+<!--header-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html"><img src="../src/img/nom.png" alt="logo" id="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Acheter <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Louer</a>
+            <a class="nav-item nav-link" href="../projet-immo/view/Formulaire.html">Contact</a>
+            <a class="nav-item nav-link" href="#">Connexion</a>
+        </div>
+    </div>
+</nav>
+
+<!--description-->
+
+<h2>Maison Lille 21 rue du Vieux Faubourg</h2>
+<div class="container-fluid">
+    <div class= "row text-center" >
+        <div class="col-12 col-sm-7">
+            <img src="../src/img/maison1.jpg" id="big" alt="maison">
+
+            <ul class="nav ">
+                <li class="nav-item">
+                    <img class="small" src="../src/img/cuisine2.jpg" alt="cuisine">
+                </li>
+                <li class="nav-item">
+                    <img class="small" src="../src/img/sdb2.jpg" alt="salle de bain">
+                </li>
+                <li class="nav-item">
+                    <img class="small" src="../src/img/chambre3.jpg" alt="chambre 1">
+                </li>
+                <li class="nav-item">
+                    <img class="small" src="../src/img/chambre2.jpg" alt="chambre 2">
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="col-12 col-sm-5">
+            <p>Localisez rapidement ce bien grâce à la carte</p>
+            <div id="maps">
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<h5>Description : réf.789</h5>
+<p>
+     Cette maison de 110 m2 situé près des commerces possède une pièce de vie de 45m2, 4 chambres, 2 salle de bains.
+
+    Prix: 210 000€ HAI
+    Honoraire: 6,2% à la charge de l'acquéreur (compris dans le prix).
+
+    Référence :	789
+    Nombre de pièce :	6
+    Charges annuelles :	0 €
+    Dont honoraires TTC :	6.2 % soit 13 000 €
+</p>
+
+
+
+
+
+
+<!--footer-->
+<div class="footer">
+    <div class="row justify-content-center">
+        <h6 class="col-12 col-sm-3">Notre agence</h6>
+        <h6 class="col-12 col-sm-3">Mentions légales</h6>
+        <h6 class="col-12 col-sm-3"><a href="../projet-immo/view/Formulaire.html">Contact</a></h6>
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook col-12 col-sm-3 "></i></a>
+    </div>
+</div>
+
+
+
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-Q8-xZAvhbFCoWYWh0gv02z36JFqDCVg&callback=initMap">
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="../src/js/mapMaison1.js"></script>
+</body>
+</html>
