@@ -84,13 +84,13 @@
 <!--footer-->
 <div class="footer">
     <div class="row justify-content-center">
-        <h6 class="col-12 col-sm-3" data-toggle="modal" data-target=".bd-example-modal-sm">Notre agence</h6>
+        <h6 class="col-12 col-sm-3" data-toggle="modal" data-target=".bd-example-modal-sm" id="agence">Notre agence</h6>
 
         <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm" role="document">
                 <div class="modal-content">
                     <img src="../src/img/nom.png" alt="logo" id="logo2">
-                    <h6 class="horaire">20 rue de la Clef 59800 Lille</h6>
+                    <h6 class="horaire" id="heure">20 rue de la Clef 59800 Lille</h6>
                     <h6 class="horaire" >Horaires d'ouverture<br>
                         Du mardi au samedi de 10h à 19h<br>
                         Tél: 03.20.01.02.03</h6>
@@ -98,8 +98,17 @@
                 </div>
             </div>
         </div>
-        <h6 class="col-12 col-sm-3">Mentions légales</h6>
-        <h6 class="col-12 col-sm-3"><a href="../view/Formulaire.html">Contact</a></h6>
+        <h6 class="col-12 col-sm-3" data-toggle="modal" data-target=".bd-example-modal" id="mention">Mentions légales</h6>
+        <div class="modal fade bd-example-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <h5 class="ml">Mentions légales</h5>
+                    <p class="mention">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et velit at est blandit pharetra. Maecenas nec aliquet magna, tristique cursus magna. Duis sollicitudin auctor orci, sed varius orci luctus a. Nunc quis est in mauris aliquet pretium a sit amet urna. Nulla sollicitudin ipsum molestie, mollis neque non, maximus magna. Vivamus nibh ante, maximus in semper at, dignissim ut nisi. Nullam dictum dui a ipsum interdum, eu auctor ipsum rhoncus. Aliquam pulvinar arcu quam, eu ultricies metus gravida quis. Curabitur vitae imperdiet lorem. Nullam rutrum ut nisi in dapibus. Curabitur vestibulum cursus finibus.</p>
+
+                </div>
+            </div>
+        </div>
+        <h6 class="col-12 col-sm-3"><a href="../view/Formulaire.html" id="contact">Contact</a></h6>
         <a href="https://www.facebook.com/"><i class="fa fa-facebook col-12 col-sm-3 "></i></a>
     </div>
 </div>

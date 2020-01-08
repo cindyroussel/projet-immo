@@ -74,6 +74,24 @@ a{
     font-size:20px;
 }
 
-.modal-content{
-    width: 130%!important;
+
+
+#agence, #contact, #mention{
+    cursor: grab;
+}
+
+#heure{
+    margin-top: 0;
+}
+
+.ml{
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.mention{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 20px;
 }
