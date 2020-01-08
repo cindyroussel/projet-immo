@@ -12,6 +12,8 @@
 
 .nav-item{
     margin-right: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
 }
 .navbar-light .navbar-nav .nav-link{
     color: black;
@@ -36,7 +38,11 @@ h4{
 
 .card{
     margin-bottom:20px;
+    box-shadow: 10px 10px 10px dimgrey;
 }
+
+
+
 
 .fa-facebook{
     color: black;
@@ -95,3 +101,4 @@ a{
     margin-left: 30px;
     font-size: 20px;
 }
+

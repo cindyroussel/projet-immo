@@ -5,7 +5,15 @@
 #big{
     width: 75%;
     border-radius: 5px;
+    width: 795px;
+    height: 435px;
+    border: 3px solid #ccc;
+    background: #eee;
+    margin: auto;
+    padding: 8px 8px;
+    box-shadow: 10px 10px 10px dimgrey;
 }
+
 
 .small{
 
@@ -98,4 +106,12 @@ img.small
     margin-right: 30px;
     margin-left: 30px;
     font-size: 20px;
+}
+
+#maps{
+    height: 435px;
+    border: 3px solid #ccc;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px dimgrey;
 }
