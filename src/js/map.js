@@ -26,12 +26,14 @@ function initMap(listener) {
 
     let marker = new google.maps.Marker({
         position: lille,
-        map: map
+        map: map,
+        icon:"../src/img/home.png"
     });
 
     let marker1 = new google.maps.Marker({
         position: appt1,
-        map: map
+        map: map,
+        icon:"../src/img/maison.png"
     });
 
 
@@ -75,7 +77,7 @@ function initMap(listener) {
      directionsService.route(request,function(response,status){
          if (status== google.maps.DirectionsStatus.OK){
              directionsDisplay.setDirections(response);
-             directionsDisplay.setOptions({'supressMarkers':true});
+             directionsDisplay.setOptions({'suppressMarkers':true});
          }
      });
 

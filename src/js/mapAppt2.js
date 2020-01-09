@@ -26,12 +26,15 @@ function initMap(listener) {
 
     let marker = new google.maps.Marker({
         position: lille,
-        map: map
+        map: map,
+        icon:"../src/img/home.png"
     });
 
     let marker1 = new google.maps.Marker({
         position: appt2,
-        map: map
+        map: map,
+        icon:"../src/img/maison.png"
+    
     });
 
 
@@ -47,6 +50,8 @@ function initMap(listener) {
         content: content2,
         position: appt2
     });
+
+    
 
 
 
@@ -68,14 +73,14 @@ function initMap(listener) {
     let request ={
         origin: lille,
         destination : appt2,
-        travelMode: google.maps.DirectionsTravelMode.WALKING,
+        travelMode: google.maps.DirectionsTravelMode.DRIVING,
         unitSystem: google.maps.DirectionsUnitSystem.METRIC
     };
 
     directionsService.route(request,function(response,status){
-        if (status== google.maps.DirectionsStatus.OK){
+        if (status== google.maps.DirectionsStatus.OK){           
             directionsDisplay.setDirections(response);
-            directionsDisplay.setOptions({'supressMarkers':true});
+            directionsDisplay.setOptions({'suppressMarkers':true});
         }
     });
 
