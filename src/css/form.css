@@ -21,6 +21,7 @@ h1{
     display: inline-block;
     color: #FF4F4F;
     padding: 10px;
+    display:none;
 }
 
 #agence, #contact, #mention{

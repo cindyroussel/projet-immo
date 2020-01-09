@@ -42,13 +42,15 @@ function initMap(listener) {
     let infos = new google.maps.InfoWindow({
         content: content,
         position: lille,
+        pixelOffset: new google.maps.Size(0,-60)
 
     });
 
     let infos2 = new google.maps.InfoWindow({
 
         content: content2,
-        position: appt2
+        position: appt2,
+        pixelOffset: new google.maps.Size(0,-60)
     });
 
     
@@ -59,11 +61,19 @@ function initMap(listener) {
          infos.open(map);
      });
      */
-    marker.addListener("click", () => {
+    marker.addListener("mouseover", () => {
         infos.open(map);
     });
-    marker1.addListener("click", () => {
+    marker1.addListener("mouseover", () => {
         infos2.open(map);
+    });
+
+    marker.addListener("mouseout", () => {
+        infos.close(map);
+    });
+
+    marker1.addListener("mouseout", () => {
+        infos2.close(map);
     });
 
     //itineraire
