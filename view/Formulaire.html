@@ -49,39 +49,39 @@
         </div>
         <div class="row identity">
             <div class="col">
-                <input type="text" class="form-control" id="inputNom" placeholder="Nom">
-                <span class="form_error"></span>
+                <input type="text" class="form-control" id="Nom" placeholder="Nom">
+                <span id="nom_error"><p>Veuillez entrez votre nom</p></span>
             </div>
             <div class="col">
-                <input type="text" class="form-control" id="inputPrenom" placeholder="Prénom">
+                <input type="text" class="form-control" id="Prenom" placeholder="Prénom">
                 <span class="form_error"></span>
             </div>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="inputMail" placeholder="Email">
+            <input type="text" class="form-control" id="Mail" placeholder="Email">
             <span class="form_error"></span>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="inputTel" placeholder="Télephone">
-            <span class="form_error"></span>
-        </div>
-
-        <div class="form-group">
-            <input type="text" class="form-control" id="inputRef" placeholder="Référence du bien">
+            <input type="text" class="form-control" id="Tel" placeholder="Télephone">
             <span class="form_error"></span>
         </div>
 
         <div class="form-group">
-            <textarea type="text" class="form-control" id="inputDemande" placeholder="Votre demande"></textarea>
+            <input type="text" class="form-control" id="Ref" placeholder="Référence du bien">
+            <span class="form_error"></span>
+        </div>
+
+        <div class="form-group">
+            <textarea type="text" class="form-control" id="Demande" placeholder="Votre demande"></textarea>
             <span class="form_error"></span>
         </div>
 
         <div class="soummettre">
-            <button type="submit" class="btn btn-info btn-lg btn-block">Envoyer</button>
+            <button type="submit" class="btn btn-info btn-lg btn-block" id="submit">Envoyer</button>
         </div>
 
         <div class="annulation">
-            <button type="submit" class="btn btn-dark btn-lg btn-block">Annulation</button>
+            <button type="submit" class="btn btn-dark btn-lg btn-block" id="cancel">Annulation</button>
         </div>
 
     </form>

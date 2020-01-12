@@ -43,3 +43,11 @@ h1{
     margin-left: 30px;
     font-size: 20px;
 }
+
+
+/*validation formulaire*/
+
+#nom_error{
+display: none;
+color:red;
+}
