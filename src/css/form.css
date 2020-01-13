@@ -47,7 +47,8 @@ h1{
 
 /*validation formulaire*/
 
-#nom_error{
+#nom_error, #prenom_error, #mail_error, #tel_error, #ref_error, #dde_error {
 display: none;
 color:red;
 }
+
