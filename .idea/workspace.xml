@@ -34,6 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetLocationVelo/location-de-velo/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -66,7 +67,7 @@
       <workItem from="1578553708287" duration="22000" />
       <workItem from="1578553741128" duration="18395000" />
       <workItem from="1578640170175" duration="1870000" />
-      <workItem from="1578899489553" duration="1376000" />
+      <workItem from="1578899489553" duration="3107000" />
     </task>
     <servers />
   </component>
@@ -74,14 +75,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Inspections" timestamp="1578576201712">
+    <state x="552" y="178" key="#Inspections" timestamp="1578917445054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1578576201712" />
-    <state x="552" y="178" width="816" height="732" key="#Intentions" timestamp="1578398752880">
+    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1578917445054" />
+    <state x="552" y="178" width="816" height="780" key="#Intentions" timestamp="1578917425337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" width="816" height="732" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1578398752880" />
+    <state x="552" y="178" width="816" height="780" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1578917425337" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578477115631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
