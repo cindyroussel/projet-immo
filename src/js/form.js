@@ -1,4 +1,6 @@
-$("#submit").click(function() {
+ 
+$( document ).ready(function(){
+ $("#submit").click(function() { console.log("ici")
     let nom = $("#nom").val();
 
     if (nom == "") {
@@ -14,7 +16,9 @@ $("#submit").click(function() {
         $("#nom").css("border-color", "green");
     }
 
-
+ 
+});
 });
 
+//  $verif();
 
