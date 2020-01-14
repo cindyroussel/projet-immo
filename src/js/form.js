@@ -23,9 +23,17 @@
              $("#Prenom").css("border-color", "green");    // sinon la bordure de l'input devient verte
          };
 
-         let tel = $("#Tel").val();
-         let telReg = /[@]/;
-         let test3 = telReg.test(tel);
+         let mail = $("#Mail").val();
+         let mailReg = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$]/;
+         let test3 = mailReg.test(mail);
+         if (mail == "" || test3 == true) {
+             $("#Mail").css("border-color", "red");
+             $("#mail_error").show();
+         }else {
+             $("#Mail").css("border-color", "green");
+         };
+
+
      });
  }
 
