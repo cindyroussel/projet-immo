@@ -23,17 +23,14 @@
              $("#Prenom").css("border-color", "green");    // sinon la bordure de l'input devient verte
          };
 
-         let mail = $("#Mail").val();
-         let mailReg = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$]/;
-         let test3 = mailReg.test(mail);
-         if (mail == "" || test3 == true) {
-             $("#Mail").css("border-color", "red");
-             $("#mail_error").show();
+
+         let dde = $("#Demande").val();
+         if (dde == ""){
+             $("#Demande").css("border-color", "red");
+             $("#dde_error").show();
          }else {
-             $("#Mail").css("border-color", "green");
+             $("#Demande").css("border-color", "green");
          };
-
-
      });
  }
 
