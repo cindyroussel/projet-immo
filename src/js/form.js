@@ -23,6 +23,36 @@
              $("#Prenom").css("border-color", "green");    // sinon la bordure de l'input devient verte
          };
 
+         let mail = $("#Mail").val();
+         let mailReg = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+         let test3 = mailReg.test(mail);
+         if (mail == ""|| test3 == false){
+             $("#Mail").css("border-color", "red");
+             $("#mail_error").show();
+         }else {
+             $("#Mail").css("border-color", "green");
+         };
+
+         let tel = $("#Tel").val();
+         let telReg = /[0-9]/;
+         let test4 = telReg.test(tel);
+         if (tel == ""|| test4 == false){
+             $("#Tel").css("border-color", "red");
+             $("#tel_error").show();
+         }else {
+             $("#Tel").css("border-color", "green");
+         };
+
+         let ref = $("#Ref").val();
+         if (ref == ""){
+             $("#Ref").css("border-color", "red");
+             $("#ref_error").show();
+         }else {
+             $("#Ref").css("border-color", "green");
+         };
+
+
+
 
          let dde = $("#Demande").val();
          if (dde == ""){
