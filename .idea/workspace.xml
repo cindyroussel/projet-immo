@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetLocationVelo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
@@ -73,7 +73,7 @@
       <workItem from="1579173894473" duration="2826000" />
       <workItem from="1579248568733" duration="63000" />
       <workItem from="1579248640651" duration="35000" />
-      <workItem from="1579249798811" duration="727000" />
+      <workItem from="1579249798811" duration="1006000" />
     </task>
     <servers />
   </component>
@@ -93,9 +93,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578477115631" />
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1579248672235">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1579251249327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579248672235" />
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579251249327" />
   </component>
 </project>
