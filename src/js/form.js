@@ -64,10 +64,16 @@
      });
  }
 
- $('#Nom').click(function(){
-    $('#error_nom').hide(); 
+
+ $('.form-control').click(function(){
+    $('#nom_error,#prenom_error').hide(); 
     
 });
+
+$('.form-control').click(function(){
+    $('#Nom').trigger("reset");
+  });
+
 
  verif();
 
