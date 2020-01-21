@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetLocationVelo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
@@ -74,6 +74,7 @@
       <workItem from="1579248568733" duration="63000" />
       <workItem from="1579248640651" duration="35000" />
       <workItem from="1579249798811" duration="1006000" />
+      <workItem from="1579519669257" duration="691000" />
     </task>
     <servers />
   </component>
