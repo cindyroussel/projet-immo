@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetLocationVelo/location-de-velo/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
@@ -68,6 +68,13 @@
       <workItem from="1578553741128" duration="18395000" />
       <workItem from="1578640170175" duration="1870000" />
       <workItem from="1578899489553" duration="5323000" />
+      <workItem from="1578985381857" duration="3252000" />
+      <workItem from="1579080074222" duration="9000" />
+      <workItem from="1579173894473" duration="2826000" />
+      <workItem from="1579248568733" duration="63000" />
+      <workItem from="1579248640651" duration="35000" />
+      <workItem from="1579249798811" duration="1006000" />
+      <workItem from="1579519669257" duration="691000" />
     </task>
     <servers />
   </component>
@@ -79,17 +86,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1578917445054" />
-    <state x="552" y="178" width="816" height="780" key="#Intentions" timestamp="1578917425337">
+    <state x="808" y="184" width="816" height="828" key="#Intentions" timestamp="1579006327100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" width="816" height="780" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1578917425337" />
+    <state x="808" y="184" width="816" height="828" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1579006327100" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578477115631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578477115631" />
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1578493837300">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1579251249327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578493837300" />
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579251249327" />
   </component>
 </project>
