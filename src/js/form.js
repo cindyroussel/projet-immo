@@ -64,4 +64,14 @@
      });
  }
 
+ $('#Nom').click(function(){
+    $('#error_nom').hide(); 
+    
+});
+
  verif();
+
+ 
+
+
+ 
