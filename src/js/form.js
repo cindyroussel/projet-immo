@@ -65,14 +65,17 @@
  }
 
 
- $('.form-control').click(function(){
-    $('#nom_error,#prenom_error').hide(); 
+ $('.form-control').click(function(){                          //permet de cacher le texte erreur? vider l'input et remettre le border-color en gris en cliquant sur l'input
+    let id = $(this).next().attr("id");
+   $('#'+id).hide();
+   $(this).val("").css("border-color","#ced4da");
     
+
+ 
+
 });
 
-$('.form-control').click(function(){
-    $('#Nom').trigger("reset");
-  });
+
 
 
  verif();
