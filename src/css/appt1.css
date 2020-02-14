@@ -103,15 +103,26 @@ h5{
     margin-top: 10px;
 }
 
+/*
+google map
 #maps{
     height: 435px;
     border: 3px solid #ccc;
     margin: auto;
     border-radius: 5px;
     box-shadow: 10px 10px 10px dimgrey;
-}
+}*/
 
 
 #logo1{
     width: 50%;
+}
+
+#map{
+    height: 435px;
+    width:600px;
+    border: 3px solid #ccc;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px dimgrey;
 }
